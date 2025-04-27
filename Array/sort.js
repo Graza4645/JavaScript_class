@@ -1,6 +1,9 @@
-
+/**
+ * This method is Used for sorting an Array
+ */
 
 const arr = [3,4,42,33,5,1, -1, -4, -3, 0];
+
 
 arr.sort();
 
