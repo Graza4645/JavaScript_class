@@ -1,0 +1,1 @@
+String always written in double or single quots.
