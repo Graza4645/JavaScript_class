@@ -1,0 +1,26 @@
+varibales:
+    these are named as block of memory used to store the data.
+
+Declaration:
+    In the Declaration here we are declaring a space to the memory.
+    exp: let x; (just we have declared x)
+
+    let x = 20; (here we assign some valur in the varibale it calls initialization).
+
+Difference between let, const and var.
+
+    var                                              let                                                           const 
+1. scope:global                                    local                                                              local
+2. Declaration: it is possible todo just the      it is possible todo just the Declaration                  Declaration is not possible 
+Declaration                                                 
+exp: var x                                              exp: let x                                             const x;
+
+3. Declaration and initialization:
+we can in different line or same line           we can in different line or same line               we can in  same line only
+
+4. re-Declaration and re-initialization:
+both are possible                               only re-initialization is possible                  both are not possible
+
+5. hoisting:
+it is possible in var                                 not possible in let                             not possible in const
+
