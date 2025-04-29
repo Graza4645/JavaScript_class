@@ -8,3 +8,4 @@ const arr = ['vikas', 3, 5, 7, 9 ];
 let newArr = arr.slice(2, 3);// it will start from the n index and gives us n-1 index
 
 console.log(newArr);
+

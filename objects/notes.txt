@@ -1,0 +1,19 @@
+object:
+- anything which exist in the real world is considered as an object.
+* In javascript object is a combination og key and value pair 
+* object will be having a state and behaviour where states are represented with varibale and behaviour is represented with function.
+
+-Ways of creating an object
+a. object litrals({})
+b. instence of an object (new keywords)
+c. construction function
+
+Object litrals:-
+    {} => considered as an object litral
+    each key and value must be separated by the colon(:).
+    Exp: let obj = {
+        name: "vikas",
+        age: "32",
+        location: "banaglore",
+        marriage: false
+    }

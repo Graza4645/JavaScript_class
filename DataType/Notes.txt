@@ -1,0 +1,50 @@
+                       Data Type
+1. Premitive Data Type      vs        2. Non Premitive Data Type
+
+* By using Primitive data Type       * By using non Primitive data Type
+  we can store the single data         we can store the multiple data 
+  in the single block of memory.       under the single variable
+  4 Type                               example:- arrays, Object, function  , 
+  * Number
+  * String                             let arr = [1,2,3,5]   , typeof arr = Object
+  * Boolean
+  * Undefine
+
+
+
+
+  2.Number :- All the numeric datas are considered as number.
+  example:- 
+          let x= 123
+
+   3. String :- * The Data which are enclosed within single quate, or double quate
+                * Data Type of String is {String}
+   Example:- 
+         let x = "Sangeeta"
+         let y = '123'
+
+
+    4. In Boolean, it is just include true or false
+      Example:- 
+          let x = true;
+          let y = false;
+
+    5. Undefine : - * Undefined Will occurs when the variable is just declared
+                    and it is not initialised to any value.
+                    * Undefine also occursduring hoisting.
+                    *the data type of undefined is undefined
+
+                    Example:- var x;
+                    console.log(x)  // undefined;
+
+differnece between undefined and null
+
+* Undefined will occurs when           * When the variable is initialised
+  Variable is just declared               to null then null will occure;
+  and not initialised
+  Example :- var x;                      let x =null;   
+  console.log(x)                         console.log(x) 
+
+  * data type of Undefine               * data type of null is Object;
+    is undefined;
+        

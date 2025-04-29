@@ -1,0 +1,26 @@
+
+    -----------------  Conversion ------------- 
+    * it is a process of changing from a data type to anther data type;
+Type of Data Type
+1. Implicit Conversion (By Default)
+2. Explicit Conversion (By User)
+
+1. Implicit type Conversion :- It is Process of Converting from one 
+                               data type to another data type Implicitly by
+                               the js engine it self is known as Implicit type conversion.
+                               example - 10 + true
+                                         10 + 'Str'
+
+2. Explicit Type conversion :- it is process of converting from one data type
+                               to another data type explicitly by programmer is know as 
+                               explicit type conversion;
+                               example:- let x = '100'
+                               console.log(typeof x)
+                               let y=number(x)
+
+                               let x = true;
+                               console.log(typeof x)
+                               let y = Number(x)
+                               console.log(y)
+                               console.log(typeof y)                                         
+    
